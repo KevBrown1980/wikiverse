@@ -1,6 +1,6 @@
 const {Sequelize} = require('sequelize')
 const {sequelize} = require('../db')
-
+//
 const Page = sequelize.define("page", {
   title: {
     type: Sequelize.STRING,
